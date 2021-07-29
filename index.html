@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
+    <!-- font kit -->
+    <script src="https://kit.fontawesome.com/a03ad0135c.js" crossorigin="anonymous"></script>
+
     <title>Honda CBR</title>
 </head>
 
@@ -24,18 +27,516 @@
     <!-- header start -->
     <header>
 
+        <!-- nav start  -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-bg-honda">
+
+            <div class="container ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="#product">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                    <button class="border-0 bg-btn-honda rounded py-2 px-4 ms-5">
+                        <a href="#" class="text-white text-decoration-none">Login</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section  -->
+        <section class="honda-bg honda-bnr-padding">
+            <div class="container d-lg-flex justify-content-around">
+                <div class="d-flex justify-content-center flex-column w-50">
+                    <p class="text-white-50">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-white">Honda CBR 300R</h1>
+                    <p class="text-white-50">Honda Bangladesh. In 1994, with a passion and enthusiasm for performance
+                        motoring, DHS Motors Limited was formed. Since then Honda is synonymous with DHS Motors in
+                        Bangladesh.</p>
+
+                    <!-- Button trigger -->
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-5 text-white"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis amet
+                                        enim iure a obcaecati quae qui aperiam incidunt. Est voluptatum aliquam at amet,
+                                        autem assumenda error sapiente sequi officiis.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-5 text-white"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button"
+                                            class="border-0 bg-btn-honda rounded py-2 px-5 text-white">Ok</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- banner honda image  -->
+                <div class="w-50">
+                    <img src="images/header-bike.png" alt="" class="w-100 mt-5">
+                </div>
+            </div>
+        </section>
+
+        <!-- banner section end -->
     </header>
     <!-- header end -->
 
     <!-- main start  -->
     <main>
+        <section>
+            <div class="text-center honda-margin">
+                <h1>Fetured Bikes 2021</h1>
+                <p class="bg-p-honda">Best bike collection</p>
+                <hr id="hr">
+            </div>
+            <div class="container d-md-flex">
+                <div class="col-md-4">
+                    <img src="images/feature-bike.jpg" alt="" class="w-100 p-5">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/feature-bike.jpg" alt="" class="w-100 p-5">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/feature-bike.jpg" alt="" class="w-100 p-5">
+                </div>
+            </div>
+        </section>
 
+        <!-- latest news start  -->
+
+        <section class="container">
+            <div class="text-center honda-margin">
+                <h1>Latest News</h1>
+            </div>
+
+            <article class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Honda 205WP</h5>
+                            <p class="card-text">Honda Bangladesh. In 1994, with a passion and enthusiasm for
+                                performance motoring, DHS Motors Limited was formed. Since then Honda is synonymous with
+                                DHS Motors in Bangladesh. Today DHS Motors continues to provide Bangladeshi motorists
+                                with successive generations of better and more advanced Honda models.</p>
+                        </div>
+                        <div class="card-body">
+                            <button class="border-0 bg-btn-honda rounded py-2 px-5">
+                                <a href="#" class="text-white text-decoration-none">Read More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-2.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">GXR 5507</h5>
+                            <p class="card-text">Honda Bangladesh. In 1994, with a passion and enthusiasm for
+                                performance motoring, DHS Motors Limited was formed. Since then Honda is synonymous with
+                                DHS Motors in Bangladesh. Today DHS Motors continues to provide Bangladeshi motorists
+                                with successive generations of better and more advanced Honda models.</p>
+
+                        </div>
+                        <div class="card-body">
+                            <button class="border-0 bg-btn-honda rounded py-2 px-5">
+                                <a href="#" class="text-white text-decoration-none">Read More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-3.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">M09 Gixer</h5>
+                            <p class="card-text">Honda Bangladesh. In 1994, with a passion and enthusiasm for
+                                performance motoring, DHS Motors Limited was formed. Since then Honda is synonymous with
+                                DHS Motors in Bangladesh. Today DHS Motors continues to provide Bangladeshi motorists
+                                with successive generations of better and more advanced Honda models.</p>
+
+                        </div>
+                        <div class="card-body">
+                            <button class="border-0 bg-btn-honda rounded py-2 px-5">
+                                <a href="#" class="text-white text-decoration-none">Read More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <!-- testimonial start  -->
+        <div class="container">
+            <div class="text-center honda-margin">
+                <h1>Happy <span class="bg-p-honda">Clients says</span></h1>
+            </div>
+        </div>
+
+
+        <div class="container mt-5 mb-5">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card p-3 text-center px-4">
+                        <div class="user-image"> <img src="images/user-1.png" class="rounded-circle" width="80"> </div>
+                        <div class="card-body">
+
+                            <p class="card-text">Keep the following tips in mind when you sit down to talk to customers:
+                                Start an open-ended dialogue. When you’re talking to customers, open-ended questions are
+                                your best friend. These queries give your customers the flexibility to dig into their
+                                experiences with more detail.</p>
+                        </div>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <div>
+                            <a href="#" class="text-decoration-none  mt-2">Regina Miles</a>
+                            <h6 class="card-title mt-2">Banker</h6>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 text-center px-4">
+                        <div class="user-image"> <img src="images/user-2.png" class="rounded-circle" width="80"> </div>
+                        <div class="card-body">
+
+                            <p class="card-text">Keep the following tips in mind when you sit down to talk to customers:
+                                Start an open-ended dialogue. When you’re talking to customers, open-ended questions are
+                                your best friend. These queries give your customers the flexibility to dig into their
+                                experiences with more detail.</p>
+                        </div>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <div>
+                            <a href="#" class="text-decoration-none  mt-2">Jhon Miles</a>
+                            <h6 class="card-title mt-2">Web Developer</h6>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 text-center px-4">
+                        <div class="user-image"> <img src="images/user-3.png" class="rounded-circle" width="80"> </div>
+                        <div class="card-body">
+                            <p class="card-text">Keep the following tips in mind when you sit down to talk to customers:
+                                Start an open-ended dialogue. When you’re talking to customers, open-ended questions are
+                                your best friend. These queries give your customers the flexibility to dig into their
+                                experiences with more detail.</p>
+                        </div>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="far fa-star"></i></i> </div>
+                        <div>
+                            <a href="#" class="text-decoration-none  mt-2">Tom Smith</a>
+                            <h6 class="card-title mt-2">UI Designer</h6>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- accordion section  -->
+        <div class="container">
+            <div class="text-center honda-margin">
+                <h1>Frequently Asked<span class="bg-p-honda"> Questions</span></h1>
+            </div>
+        </div>
+        <section class="container d-md-flex mt-5">
+            <div>
+                <img src="images/faq.png" alt="" class="w-100">
+            </div>
+            <div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I tell if my helmet is old and I need a
+                                new one?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Honda City. The All-New City is smartly styled with dignified stature and superior
+                                    technological prowess. A wide, upper-grill in the front presents the signature Honda
+                                    Solid Wing Face and elevates the car to a position of prominence.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Honda Power Products. HS Enterprise (HSE) established in 1981, is a reputable and
+                                    trusted organization in Bangladesh working relentless to provide quality and
+                                    competitive products for the clients. About Us. Our Products. F300. Details. FQ650.
+                                    Details. UMK-435T.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What rules should I follow when riding my bike?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>We, Bangladesh Honda Private Limited (BHL), are pleased to announce the new retail
+                                    price for Honda’s selective motorcycle new models. These models are available a t
+                                    our Honda Exclusive Authorized Dealers (HEAD) nationwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slider start  -->
+        <div class="container">
+            <div class="text-center honda-margin">
+                <h1> <span class="bg-p-honda">Latest</span> Features</h1>
+            </div>
+        </div>
+        <section class="container mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slider/slider_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider/slider_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider/slider_3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- honda price -->
+        <div class="container">
+            <div class="text-center honda-margin">
+                <h1>Latest <span class="bg-p-honda">Price Update</span></h1>
+            </div>
+        </div>
+        <section class="container">
+            <div class="card-group mt-5">
+                <div class="card">
+                    <img src="images/bike_bd/bike_1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda CB150R Exmotion</h5>
+                        <h5 class="card-title bg-p-honda">৳ 570,000</h5>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-4 text-white mt-4">
+                            Purchase
+                        </button>
+                    </div>
+
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 30 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bike_bd/bike_2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">New Honda CBR 150R</h5>
+                        <h5 class="card-title bg-p-honda">৳ 610,000</h5>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-4 text-white mt-4">
+                            Purchase
+                        </button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 36 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bike_bd/bike_3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Honda CBR 150R ABS 2019 </h5>
+                        <h5 class="card-title bg-p-honda">৳ 810,000</h5>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-4 text-white mt-4">
+                            Purchase
+                        </button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 23 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group mt-4">
+                <div class="card">
+                    <img src="images/bike_bd/bike_4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Honda CBR 150R ABS 2019 (Thailand)</h5>
+                        <h5 class="card-title bg-p-honda">৳ 310,000</h5>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-4 text-white mt-4">
+                            Purchase
+                        </button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 33 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bike_bd/bike_5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Honda CBR150R Indonesian Version</h5>
+                        <h5 class="card-title bg-p-honda">৳ 210,000</h5>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-4 text-white mt-4">
+                            Purchase
+                        </button>
+
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 26 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bike_bd/bike_6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Honda CBR 150R Repsol ABS New 2022</h5>
+                        <h5 class="card-title bg-p-honda">৳ 710,000</h5>
+                        <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="far fa-star"></i> </div>
+                        <button type="button" class="border-0 bg-btn-honda rounded py-2 px-4 text-white mt-4">
+                            Purchase
+                        </button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 55 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- main end  -->
 
     <!-- footer start  -->
-    <footer>
+    <footer class="footer-color py-5">
+        <div class="container d-md-flex text-white">
+            <div>
+                <div>
+                    <a href="#" class="text-white text-decoration-none">Download Now</a>
+                    <a href="#" class="text-white text-decoration-none ms-2">License</a>
+                </div>
+                <div class="mt-2">
+                    <a href="#" class="text-white text-decoration-none">About</a>
+                    <a href="#" class="text-white text-decoration-none ms-2">Features</a>
+                    <a href="#" class="text-white text-decoration-none ms-2">Pricing</a>
+                    <a href="#" class="text-white text-decoration-none ms-2">Careers</a>
+                    <a href="#" class="text-white text-decoration-none ms-2">Help</a>
+                    <a href="#" class="text-white text-decoration-none ms-2">Privacy Policy</a>
+                </div>
+                <div class="mt-4">
+                    <p>© 2020 bike. All rights reserved</p>
+                </div>
+            </div>
 
+            <div class="ms-auto">
+                <h3>
+                    Get the App
+                </h3>
+                <div class="mt-3">
+                    <img src="images/badge/apple.png" alt="">
+                    <br>
+                    <img src="images/badge/google-play.png" alt="" class="mt-2">
+                </div>
+
+            </div>
+        </div>
     </footer>
     <!-- footer end  -->
     <!-- bootstrap js  -->
