@@ -11,6 +11,9 @@ body{
 .nav-bg-honda{
     background-color: #264653;
 }
+.mobile-tgl-honda{
+    background-color: white;
+}
 
 /* header background */
 .honda-bg{
@@ -29,13 +32,6 @@ body{
 /* main start  */
 .bg-p-honda{
     color: #E76F51;
-}
-
-#hr {
-    background-color: #E76F51;
-    width: 10%;
-    height: 2px;
-    
 }
 
 /* testimonial */
